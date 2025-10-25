@@ -4,37 +4,34 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
+   read -p "Red Orange Yellow Green Indigo Violet? (q to end) > " color
 
-case $note in
+case $color in
    # each case matches a pattern
-   do|Do)
-      echo "Doe a deer a female deer"
+   red|Red)
+      echo "Life"
       ;;   
-   rae|Rae)
-      echo "Ray a drop of golden sun"
+   orange|Orange)
+      echo "Healing"
       ;;
-   mi|Mi)
-      echo "Me a name a call myself"
+   yellow|Yellow)
+      echo "Sunlight"
       ;;
-   fa|Fa)
-      echo "Far a long long way to run"
+   green|Green)
+      echo "Nature"
       ;;
-   so|So)
-      echo "So a note that follows fa"
+   indigo|Indigo)
+      echo "Serenity"
       ;;
-   la|La)
-      echo "La a note that follow so"
-      ;;
-   ti|ta)
-      echo "Tea I drink with jam and bread"
+   violet|Violet)
+      echo "Spirit"
       ;;
    q)
-      echo "Hope you enjoyed the sound of music"
+      echo "Over the Rainbow~"
       exit 0
       ;;
    *) 
-      echo "Not a note"
+      echo "Not a color in the given prompt"
       ;;
 esac
 
