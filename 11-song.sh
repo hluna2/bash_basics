@@ -31,7 +31,7 @@ case $color in
       exit 0
       ;;
    *) 
-      echo "Not a color in prompt"
+      echo "Not a color in the given prompt"
       ;;
 esac
 
