@@ -26,7 +26,7 @@ case $color in
       echo "Spirit"
       ;;
    q)
-      echo "Over the Rainbow~"
+      echo "Over the Rainbow~~~"
       exit 0
       ;;
    *) 
